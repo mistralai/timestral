@@ -1010,7 +1010,7 @@ wheels = [
 ]
 
 [[package]]
-name = "timestral"
+name = "timestral-private"
 version = "1.0.0"
 source = { editable = "." }
 dependencies = [

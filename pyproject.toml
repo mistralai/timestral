@@ -3,7 +3,8 @@ requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "timestral"
+# Keep the distribution private without changing the public Python import.
+name = "timestral-private"
 version = "1.0.0"
 description = "Standalone inference for Timestral time-series forecasting models"
 readme = "README.md"
